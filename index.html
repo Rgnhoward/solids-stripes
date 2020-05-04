@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - solids-stripes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="https://github.com/Rgnhoward">Github</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="https://validator.w3.org/nu/">Nu</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="https://codepen.io/Rgnhoward">Codepen</a>
+    </li>
+  </ul>
+</nav>
+<br>
+
+<div class="container-fluid">
+  <div class="container">
+    <div class="jumbotron">
+      <div class="top">
+        <h1>Start Here</h1>
+      </div>
+      <div class="top">
+        <h1>Solids</h1>
+      </div>
+      <div class="top">
+        <h1>Stripes</h1>
+      </div>
+      <div class="droptarget" ondrop="drop(event)" ondragenter="dragEnter(event)" ondragleave="dragLeave(event)" ondragover="allowDrop(event)">
+        <div class="sign" ondragstart="dragStart(event)" draggable="true" id="dragtarget">You can drag this text to any div</div>
+        <br />
+        <img id="dragtarget1" class="solid" src="images/pool-ball-1-100x100.png" width="100" height="100" alt="ball1" draggable="true" ondragstart="dragStart(event)"></img>
+
+        <img id="dragtarget4" class="solid" src="images/pool-ball-4-100x100.png" width="100" height="100" alt="ball4" draggable="true" ondragstart="dragStart(event)"></img>
+        <img id="dragtarget5" class="solid" src="images/pool-ball-5-100x100.png" width="100" height="100" alt="ball5" draggable="true" ondragstart="dragStart(event)"></img>
+        <img id="dragtarget7" class="solid" src="images/pool-ball-7-100x100.png" width="100" height="100" alt="ball7" draggable="true" ondragstart="dragStart(event)"></img>
+        <img id="dragtarget8" class="solid" src="images/pool-ball-8-100x100.png" width="100" height="100" alt="ball8" draggable="true" ondragstart="dragStart(event)"></img>
+        <img id="dragtarget9" class="stripe" src="images/pool-ball-9-100x100.png" width="100" height="100" alt="ball9" draggable="true" ondragstart="dragStart(event)"></img>
+        <img id="dragtarget10" class="stripe" src="images/pool-ball-10-100x100.png" width="100" height="100" alt="ball0" draggable="true" ondragstart="dragStart(event)"></img>
+        <img id="dragtarget11" class="stripe" src="images/pool-ball-11-100x100.png" width="100" height="100" alt="ball11" draggable="true" ondragstart="dragStart(event)"></img>
+        <img id="dragtarget14" class="stripe" src="images/pool-ball-14-100x100.png" width="100" height="100" draggable="true" ondragstart="dragStart(event)"></img>
+        <img id="dragtarget15" class="stripe" src="images/pool-ball-15-100x100.png" width="100" height="100" draggable="true" ondragstart="dragStart(event)"></img>
+        <img id="dragtarget0" class="zero" src="images/pool-ball-0-100x100.png" width="100" height="100" draggable="true" ondragstart="dragStart(event)"></img>
+      </div>
+
+      <div class="droptarget" class="solids" ondragenter="dragEnter(event)" ondragleave="dragLeave(event)" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+      <div class="droptarget" id="stripes" ondragenter="dragEnter(event)" ondragleave="dragLeave(event)" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+      <p> Text will drop in any div</p>
+
+      <p id="demo"></p>
+    </div>
+  </div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

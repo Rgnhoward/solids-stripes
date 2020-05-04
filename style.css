@@ -1,0 +1,40 @@
+.nav-bar {
+  bg.color: "blue";
+}
+.jumbotron {
+  width: auto;
+}
+
+.droptarget {
+  float: left;
+  width: 32%;
+  height: 600px;
+  margin: 5px;
+  padding-left: 14px;
+  border: 1px solid #aaaaaa;
+}
+img {
+  margin: 1px;
+  float: left;
+}
+p {
+  text-align: center;
+  clear: left;
+}
+div.sign {
+  text-align: center;
+}
+div.top h1 {
+  display: inline;
+  text-align: center;
+  width: 30%;
+  height: 12px;
+}
+div.top {
+  clear: left;
+  display: inline;
+  width: 30%;
+  height: 12px;
+  margin: 80px;
+  padding-left: 40px;
+}
